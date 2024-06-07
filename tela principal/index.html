@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Principal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Turmas</h1>
+        <button id="sair">Sair</button>
+    </header>
+    <main>
+        <section id="professor">
+            <h2>Nome do Professor:</h2>
+            <p id="nome-professor"></p>
+        </section>
+        <section id="turmas">
+            <h2>Turmas:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Número</th>
+                        <th>Nome</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="listaTurmas">
+                    <!-- Aqui serão inseridas as linhas da tabela dinamicamente -->
+                </tbody>
+            </table>
+        </section>
+        <button id="cadastrar-turma">Cadastrar Turma</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
